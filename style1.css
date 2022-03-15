@@ -1,0 +1,423 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins' sans-serif;
+        
+    }
+
+    .body{
+        display: block;
+    }
+    
+    .header1{
+        min-height: 100vh;
+        width: 100%;
+        background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(photos/111111غلاف\ من\ نحن.jpg);
+        background-position: center;
+        background-size: cover;
+        position: relative;
+    
+        
+        
+    }
+    
+    
+    nav{
+        display: flex;
+        padding: 2% 6%;
+        justify-content: space-between;
+        align-items: center;
+    
+
+    }
+
+    nav .logo{
+        text-decoration: none;
+        font-size: 50px;
+        color: gold;
+        font-weight: bolder;
+    }
+    nav img{
+        width: 150px;
+    }
+    .nav-links{
+        flex: 1;
+        text-align: right;
+    }
+    .nav-links ul li{
+        display: inline-block;
+        list-style: none;
+        padding: 8px 12px;
+        position: relative;
+        text-transform: uppercase;
+        
+    }
+    .nav-links ul li a{
+        text-decoration: none;
+        color: #ffff;
+        font-size: 25px;
+    }
+    .nav-links ul li::after{
+        content: '';
+        width: 0%;
+        height: 2px;
+        background: gold;
+        display: inline-block;
+        margin: auto;
+        transition: 0.3s;
+        
+    }
+    .nav-links ul li:hover::after{
+        width: 100%;
+    }
+    
+    nav .fab{
+        font-size: 42px;
+        color:black;
+    }
+
+   
+
+    .text-box{
+        width: 90%;
+        color: red;
+        position: absolute;
+        top: 30%;
+        left: 3.1%;
+        transform: translate(-50% -50%);
+        text-align: center;
+    }
+
+    .text-box h2{
+        font-size: 500%;
+        font-weight: 900;
+        color: gold;
+        padding-top: 10%;
+    }
+
+    
+
+
+
+    .hero_btn{
+        position: relative;
+        display: inline-block;
+        border: 1px solid gold;
+        border-radius: 5px;
+        padding: 5px 34px;
+        font-size: 20px;
+        font-style: inherit;
+        font-weight: 600;
+        text-decoration: none;
+        background:black;
+        cursor: pointer;
+        font: optional;color:gold;
+
+    }
+    .hero_btn:hover{
+        border: 1px solid black;
+        background: gold;
+        transition: 0.03s;
+        font: optional;color:black;
+    }
+
+    
+
+
+    nav .fa{
+        display: none;
+    }
+
+    @media(max-width: 700px){
+
+        .header1{
+            min-height: 100vh;
+            width: 100%;
+            background-image: linear-gradient(rgba(4, 9, 30, 0.74),rgba(4, 9, 30, 0.74)),url(photos/aboutusbillboard.jpg);
+            background-position: center;
+            background-size: cover;
+            position: relative;
+            
+            
+
+        }
+    
+        .text-box h2{
+            font-size: 417%;
+            text-align: center;
+            padding-top: 20%;
+        
+
+        }
+
+        .text-box p{
+            font-size: 140%;
+
+        }
+
+       
+        .text-box #headtext{
+            font-size: 184%;
+            padding-top: 7%;
+        }    
+        .nav-links ul li{
+            display: inline-block;
+
+        }
+        .nav-links{
+            position: fixed;
+            background: black;
+            height: 100vh;
+            width: 44%;
+            top: 0;
+            right: -274%;
+            text-align: left;
+            z-index: 2;
+            transition: 1s;
+
+        }
+        nav .fa{
+            display: block;
+            color: yellow;
+            margin: 5%;
+            font-size: 168%;
+            cursor: pointer;
+        }
+
+        nav .logo{
+            text-decoration: none;
+            font-size: 161%;
+            color: gold;
+            font-weight: bolder;
+            padding-right: 30%;
+            padding-top: 0%;
+
+        }
+
+        .nav-links ul {
+            padding: 7px;
+        }
+
+        .nav-links ul {
+            padding: 7px;
+        }
+
+
+        .about-col img {
+            width: 100%;
+        }
+
+        .about-col {
+            flex-basis: 32%;
+            padding: 10px 80px;
+            margin: 0px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            overflow: hidden;
+            display: block;
+            
+        }
+        .about-us{
+
+            width: 100%;
+            margin: auto;
+            padding-top: 80px;
+            padding-bottom: 50px;
+        }
+
+    }
+
+
+    
+    h1 {
+        font-size: 170%;
+        font-weight: 800;
+        font-style: normal;
+        margin-left: 0%;
+        margin-right: 3%;
+        line-height: 100%;
+        text-transform: uppercase;
+        color: blue;
+        
+    }
+
+    
+    
+    p {
+        color: black;
+        font-size: 138%;
+        font-weight: 300;
+        line-height: 159%;
+        padding: 70%;
+        margin-left: 15%;
+        margin-right: 19%;
+    }
+
+    .e{
+        color: black;
+        font-size: 10px;
+        font-weight: 300;
+        line-height: 0px;
+        padding: 10px;
+
+    }
+    
+    
+    .row7{
+        margin-top: 5%;
+        display: flex;
+        justify-content: space-evenly;
+        right: inherit;
+    }
+    .row8{
+        margin-top: 5%;
+        display: flex;
+        justify-content: space-evenly;
+        right: inherit;
+    }
+    .row9{
+        margin-top: 5%;
+        display: flex;
+        justify-content: space-evenly;
+        right: inherit;
+    }
+
+    
+    
+    
+    
+    
+    /* Course Section End */
+    
+   
+    
+/* Footer Section Start */
+
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 7px 0;
+    padding-top: 10px;
+}
+
+.footer h4 {
+    font-weight: 600;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: blue;
+    font-weight: 600;
+}
+
+.footer a:hover {
+    color: #24f8c7;
+}
+
+.footer .fa {
+    color: #5236f4;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}
+
+.footer .fa:hover{
+    color: #24f8c7;
+}
+
+.fa-heart {
+    color: #24f8c7;
+}
+
+hr {
+    border: 0.01px solid #7777772a;
+}
+
+/* Footer Section End */
+
+/* About Us Section Start */
+
+.Sub-header {
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), 
+    url(photos/banner.png);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color:rgba(0, 0, 0, 0.603);
+}
+
+.Sub-header h1 {
+    margin-top: 50px;
+}
+
+.about-us {
+    width: 100%;
+    margin: 4%;
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+
+.about-col {
+    flex-basis: 48%;
+    padding: 0% 0%;
+    text-align: center;
+}
+
+.about-col img {
+    width: 47%;
+}
+
+.about-col h1 {
+    padding-top: 0;
+}
+
+.about-col p {
+    padding: 15px 0 25px;
+}
+
+
+
+.btn {
+    border: 1px solid #5236f4;
+    background: transparent;
+    color: #5236f4;
+}
+
+.btn:hover {
+    color: #fff;
+}
+
+
+
+@media (max-width: 700px) {
+    .row7 {
+        
+        flex-direction: column;
+    }
+
+    .row8 {
+       
+        flex-direction: column;
+    }
+
+    .row9 {
+        
+        flex-direction: column;
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+/* About Us Section end */
